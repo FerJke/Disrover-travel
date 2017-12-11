@@ -1,0 +1,23 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "white grenn template",
+  "main": "\u001b[A\u001b[A\u001b[B\u001b[D\u001b[D\u001b[e\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "white",
+    "green",
+    "travel"
+  ],
+  "author": "Ferj",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  min-width: toRem(320);
+  color: $color-main;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: toRem(1200);
+  padding-left: toRem(15);
+  padding-right: toRem(15);
+}
+
+.content-bl {
+  padding: toRem(95) 0;
+
+  &--colored {
+    background-color: #efeeee;
+  }
+  
+}

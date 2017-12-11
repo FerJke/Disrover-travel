@@ -1,0 +1,42 @@
+.title {
+  margin: 0;
+  margin-bottom: toRem(55);
+  padding-bottom: toRem(18);
+
+  font-size: toRem(28);
+  font-family: $ff-main;
+  font-weight: $fw-bold;
+  letter-spacing: toRem(-0.5);
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+
+  &--border {
+    position: relative;
+    color: $color-hover;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      bottom: toRem(1);
+      width: toRem(152);
+      height: toRem(1);
+      background-color: #c2c2c2;
+    }
+
+    &::after {
+      bottom: 0;
+      height: toRem(3);
+      width: toRem(50);
+      background-color: $color-hover;
+    }
+
+  }
+
+}
