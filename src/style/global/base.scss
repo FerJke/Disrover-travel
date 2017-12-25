@@ -36,5 +36,12 @@ img {
   &--colored {
     background-color: #efeeee;
   }
-  
+
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    padding-left: toRem(7);
+    padding-right: toRem(7);
+  }
 }

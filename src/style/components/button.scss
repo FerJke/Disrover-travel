@@ -23,3 +23,10 @@
   }
 
 }
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    padding: toRem(16) toRem(24);
+    font-size: toRem(20);
+  }
+}

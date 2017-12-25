@@ -207,4 +207,14 @@ window.onload = function(){
     var myGallery = new Gallery('#gallery');
   }
 
+  /* Mobile Button */
+  (function(){
+    var burger = document.querySelector('.mob__btn'),
+        navList = document.querySelector('.navigation__list');
+    burger.addEventListener('click', function(e) {
+      burger.classList.toggle('mob__btn--active');
+      navList.classList.toggle('navigation__list--open');
+    });
+  })();
+
 }
